@@ -1,0 +1,11 @@
+# marvin-braescher
+int main()
+{
+  const float pi = 3.14;
+  int pizza;
+  int area;
+  
+ cout << "digite o raio da pizza";
+ cin >> pizza;
+ area = pi * (pizza * pizza);
+ cout << " a area da pizza eh:" << area; 
